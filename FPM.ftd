@@ -1,4 +1,4 @@
 -- import: fpm
 
--- fpm.package: <user_name>.github.io/<repo_name>
-download-base-url: https://raw.githubusercontent.com/<user_name>/<repo_name>/main
+-- fpm.package: gargajit.github.io/project1
+download-base-url: https://raw.githubusercontent.com/gargajit/project1/main
