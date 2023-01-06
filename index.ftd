@@ -7,12 +7,14 @@ width: fill-container
 height: fill-container
 align-content: top-center
 
--- box: Click me!
+-- box: Test Box, Click me!
 
-Test Your component.
+Package is running component box.
 
 Body expands and collapse when clicked on the Header
 triggering on-click event handling.
+
+You can use this package for your project.
 
 -- end: ftd.column
 
