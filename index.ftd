@@ -1,3 +1,21 @@
+-- ftd.column:
+padding.px: 20
+border-width.px: 1
+spacing.px: 50
+background.solid: #eee
+width: fill-container 
+height: fill-container
+align-content: top-center
+
+-- box: Click me!
+
+Test Your component.
+
+Body expands and collapse when clicked on the Header
+triggering on-click event handling.
+
+-- end: ftd.column
+
 -- component box:
 caption title: default header
 body body: default body
