@@ -1,1 +1,42 @@
--- ftd.text: Hello World
+-- component box:
+caption title: default header
+body body: default body
+boolean $open: false
+
+-- ftd.column:
+border-width.px: 4
+width.fixed.percent: 60
+
+-- ftd.row:
+padding.px: 10
+border-width.px: 1
+width: fill-container
+spacing-mode: space-between
+$on-click$: $toggle($value=$box.open)
+
+-- ftd.text: $box.title
+
+-- ftd.text: O
+if: {!box.open}
+
+-- ftd.text: X
+if: {$box.open}
+
+-- end: ftd.row
+
+-- ftd.text:
+if: { $box.open }
+padding.px: 10
+height: hug-content
+
+$box.body
+
+-- end: ftd.column
+
+-- end: box
+
+-- void toggle(value):
+boolean $value:
+
+value = !value;
+
